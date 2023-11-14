@@ -1,0 +1,83 @@
+#for-user{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    width: 30%;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    background: #2c3e50;
+    padding: 0px 20px;
+}
+#for-user > span:nth-child(1){
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-gap: 5px 0px;
+}
+#for-user > span:nth-child(1) p{
+    color: #ffffff;
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#for-user > span:nth-child(1) input{
+    padding: 10px;
+    text-align: left;
+    outline: none;
+}
+#for-user > span:nth-child(1) button{
+    padding: 10px;
+    color: #ffffff;
+    background: #27ae60;
+    border: none;
+    font-weight: bold;
+}
+#for-user > span:nth-child(1) button:hover{
+    background: #2ecc71;
+}
+#for-user > span:nth-child(1) button:active{
+    background: #27ae60;
+}
+#for-user > span:nth-child(2){
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-gap: 5px 0px;
+}
+
+
+
+
+
+
+
+
+/* FAQ */
+
+.faq-container {
+    width: 100%;
+    position: relative;
+}
+
+.faq-question {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: block;
+    padding: 10px;
+    background-color: #34495e;
+    border: 2px solid #3498db;
+    font-size: 0.85rem;
+    border-top: none;
+    position: absolute;
+    color: #fff;
+}

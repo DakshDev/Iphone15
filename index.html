@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="user.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script defer src="script.js"></script>
+    <title>Iphone 15 | Website Mobile</title>
+</head>
+<body>
+
+    <div id="for-user">
+        <span>
+            <p id="showMsg">Create New Password </p>
+            <input type="number" placeholder="Set Password" id="user-pass" value="000000" min="0">
+            <button id="setPass">Set Password</button>
+        </span>
+        <span>
+            <div class="faq-container">
+                <div class="faq-question" onclick="toggleAnswer(1)">How to Unlock Phone?</div>
+                <div class="faq-answer" id="answer1">If you are on a PC, go to the WebMobile screen first, then scroll down using the mouse. After that, it will ask for a password. If you haven't set a password, enter '000000' as the default password.</div>
+            </div>
+        </span>
+    </div>
+
+<div id="main">
+    <span id="torch"><span></span></span>
+    <div id="phone">
+
+        
+<!-- cam box -->
+        <div id="cam-box">
+            <div id="icons">
+                <span id="lock-icon"><svg viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg></span>
+            </div>
+            <span></span>
+        </div>
+
+
+<!-- Phone Inner -->
+        <div id="phone-inner">
+            <!-- LOCK SCREEN -->
+            <div id="lock-screen">
+                <!-- top -->
+                <div id="top-bar">
+                    <span><svg viewBox="0 0 640 512"><path d="M576 0c17.7 0 32 14.3 32 32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V32c0-17.7 14.3-32 32-32zM448 96c17.7 0 32 14.3 32 32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V128c0-17.7 14.3-32 32-32zM352 224V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V224c0-17.7 14.3-32 32-32s32 14.3 32 32zM192 288c17.7 0 32 14.3 32 32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V320c0-17.7 14.3-32 32-32zM96 416v64c0 17.7-14.3 32-32 32s-32-14.3-32-32V416c0-17.7 14.3-32 32-32s32 14.3 32 32z" /></svg></span>
+                    <span><svg viewBox="0 0 640 512"><path d="M54.2 202.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9s11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C-2.9 169-3.3 189.2 8.9 202s32.5 13.2 45.2 .9zM320 256c56.8 0 108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.2-56zm64 160a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"/></svg></span>
+                    <span><svg viewBox="0 0 576 512"><path d="M464 160c8.8 0 16 7.2 16 16V336c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V176c0-8.8 7.2-16 16-16H464zM80 96C35.8 96 0 131.8 0 176V336c0 44.2 35.8 80 80 80H464c44.2 0 80-35.8 80-80V320c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32V176c0-44.2-35.8-80-80-80H80zm368 96H96V320H448V192z"/></svg></span>
+                </div>
+                <!-- time -->
+                <div id="time-box">
+                    <span id="one"></span>
+                    <span id="two">9:41</span>
+                </div>
+                <!-- bottom -->
+                <div id="bottom-bar">
+                    <span id="torch-btn"><svg viewBox="0 0 55.64 122.88"><path d="M41.29,122.88H15.61a4.87,4.87,0,0,1-4.84-4.83v-53H46.13v53a4.9,4.9,0,0,1-4.84,4.83ZM30.77,17.64a3.87,3.87,0,0,1-7.73,0V3.87a3.87,3.87,0,1,1,7.73,0V17.64Zm19.91,2.89a3.86,3.86,0,0,1-7.44-2.09l2.21-7.86a3.86,3.86,0,0,1,7.44,2.09l-2.21,7.86ZM10,18.79A3.86,3.86,0,1,1,2.63,21L.16,12.73a3.86,3.86,0,1,1,7.4-2.21L10,18.79ZM3.34,30.39H53.56a2.1,2.1,0,0,1,2.08,2.08v7.06a2.08,2.08,0,0,1-2.08,2.08H3.34A2.11,2.11,0,0,1,1.87,41a2.07,2.07,0,0,1-.61-1.47V32.47A2,2,0,0,1,1.87,31a2.08,2.08,0,0,1,1.47-.62ZM53.41,49.1l-4.5,10.45A2,2,0,0,1,47,60.86H9.72a2,2,0,0,1-1.85-1.25L3.53,49.19a2,2,0,0,1,1.81-2.9H51.56a2,2,0,0,1,.79.17,2,2,0,0,1,1.06,2.64ZM24.81,76.05a3.64,3.64,0,0,1,7.28,0v8.18a3.64,3.64,0,1,1-7.28,0V76.05Zm0,22.12a3.64,3.64,0,0,1,7.28,0v4.2a3.64,3.64,0,0,1-7.28,0v-4.2Z"/></svg></span>
+                    <span><svg viewBox="0 0 512 512"><path d="M149.1 64.8L138.7 96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H373.3L362.9 64.8C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 192a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"/></svg></span>
+                </div>
+                <!-- bottom swip -->
+                <div id="border"></div>
+                <div id="bottom-swip">
+                    <div id="extra-space"></div>
+                </div>
+                <div id="border2"></div>
+                <div id="bottom-swip-home">
+                    <div id="extra-space-home"></div>
+                </div>
+            </div>
+            <!-- LOCK PAD -->
+            <div id="lock-pad">
+                <!-- Pass box -->
+                    <div id="pass-box">
+                        <span id="enter-pass">Enter Password</span>
+                        <span id="pass-dot">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                <!--key box  -->
+                    <div id="key-box">
+                        <div>
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                        </div>
+                        <div>
+                            <span>4</span>
+                            <span>5</span>
+                            <span>6</span>
+                        </div>
+                        <div>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div>
+                            <span>0</span>
+                        </div>
+                    </div>
+                <!-- bottom box -->
+                    <div id="btom-box">
+                        <span>Emergency</span>
+                        <span id="cancel">Cancel</span>
+                    </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- HOME SCREEN -->
+        <div id="home-screen">
+            <div id="home-screen-content">
+                <!-- Top Bar -->
+                <div id="home-top-bar">
+                    <div>
+                        <span id="home-time"></span>
+                    </div>
+                    <div>
+                        <span><svg viewBox="0 0 640 512"><path d="M576 0c17.7 0 32 14.3 32 32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V32c0-17.7 14.3-32 32-32zM448 96c17.7 0 32 14.3 32 32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V128c0-17.7 14.3-32 32-32zM352 224V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V224c0-17.7 14.3-32 32-32s32 14.3 32 32zM192 288c17.7 0 32 14.3 32 32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V320c0-17.7 14.3-32 32-32zM96 416v64c0 17.7-14.3 32-32 32s-32-14.3-32-32V416c0-17.7 14.3-32 32-32s32 14.3 32 32z" /></svg></span>
+                        <span><svg viewBox="0 0 640 512"><path d="M54.2 202.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9s11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C-2.9 169-3.3 189.2 8.9 202s32.5 13.2 45.2 .9zM320 256c56.8 0 108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.2-56zm64 160a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"/></svg></span>
+                        <span><svg viewBox="0 0 576 512"><path d="M464 160c8.8 0 16 7.2 16 16V336c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V176c0-8.8 7.2-16 16-16H464zM80 96C35.8 96 0 131.8 0 176V336c0 44.2 35.8 80 80 80H464c44.2 0 80-35.8 80-80V320c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32V176c0-44.2-35.8-80-80-80H80zm368 96H96V320H448V192z"/></svg></span>
+                    </div>
+                </div>
+                <!-- APPS  -->
+                <div id="home-main-display">
+                    <table>
+                        <tr>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/Spotify.png?token=GHSAT0AAAAAACKHQXPVHBNMRNGEKLZGKHGQZKSDGBQ"></td>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/app.png?token=GHSAT0AAAAAACKHQXPUVP5KOFSMRKH2EXZKZKSDGOA"></td>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/camera.png?token=GHSAT0AAAAAACKHQXPVDIR44AUTWP2IT6VIZKSDGTA"></td>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/clock.png?token=GHSAT0AAAAAACKHQXPVPAEBEERJ5ZCI3JTCZKSDG3A"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/email.png?token=GHSAT0AAAAAACKHQXPV4JG6QJ2ZJ4HY4M7GZKSDHAQ"></td>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/facebook.png?token=GHSAT0AAAAAACKHQXPVBWZIBL6A2D3IYJCQZKSDHJQ"></td>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/github.png?token=GHSAT0AAAAAACKHQXPV6DZ2SRV23MKHQVKEZKSDHPA"></td>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/instagram.png?token=GHSAT0AAAAAACKHQXPVV5ZINIEPVFSJRCMGZKSDHUA"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/linkedin.png?token=GHSAT0AAAAAACKHQXPUW4LOX4ESNNFG7R3AZKSDH2A"></td>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/pinterest.png?token=GHSAT0AAAAAACKHQXPUYBVL376OOVMJVKM4ZKSDH7A"></td>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/raplit.png?token=GHSAT0AAAAAACKHQXPVFD7MET5IXRNRT2WQZKSDIEQ"></td>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/reddit.png?token=GHSAT0AAAAAACKHQXPUCACQ3F7FL54J6NLCZKSDIKQ"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/safari.png?token=GHSAT0AAAAAACKHQXPV2SWD6NUAGRKMPG7AZKSDITQ"></td>
+                            <td><span></span></td>
+                            <td><span></span></td>
+                            <td><span></span></td>
+                        </tr>
+                        <tr>
+                            <td><span></span></td>
+                            <td><span></span></td>
+                            <td><span></span></td>
+                            <td><span></span></td>
+                        </tr>
+                        <tr>
+                            <td><span></span></td>
+                            <td><span></span></td>
+                            <td><span></span></td>
+                            <td><span></span></td>
+                        </tr>
+
+                        <tr><td colspan="4"><span></span></td></tr>
+
+                        <tr>
+                            <td colspan="4">
+                                <table>
+                                    <tr>
+                                        <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/setting.png?token=GHSAT0AAAAAACKHQXPUG25DYXODB3QWLOYEZKSDI4Q"></td>
+                                        <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/snap.png?token=GHSAT0AAAAAACKHQXPU2RYMGJHAXRCUESNQZKSDJFA"></td>
+                                        <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/twitter.png?token=GHSAT0AAAAAACKHQXPUA7BQVCOLJM4SL3B4ZKSDJMA"></td>
+                                        <td><img src="https://raw.githubusercontent.com/DakshDev/ImagesForWebsite/main/youtube.png?token=GHSAT0AAAAAACKHQXPUWZV52WTD6U42W6D6ZKSDJRQ"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<script>
+// Chat GPT COPY CODE
+(()=>{
+    // RIGHT BTN NOT WORK IN PHONE
+    var myElement = document.getElementById('phone');
+    function handleRightClick(event) {
+      event.preventDefault();
+    }myElement.addEventListener('contextmenu', handleRightClick);
+    // FAQ
+    function toggleAnswer(answerId) {
+        var answer = document.getElementById("answer" + answerId);
+        if (answer.style.display === "none") {
+            answer.style.display = "block";
+        } else {
+            answer.style.display = "none";
+        }
+    }
+})
+</script>
+</body>
+</html>
