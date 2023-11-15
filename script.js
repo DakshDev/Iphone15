@@ -1,3 +1,39 @@
+// WEBSITE LOAD
+let LoadBox = document.getElementById('loading');
+window.addEventListener('load',()=>{
+    LoadBox.style.display = 'none';
+});
+
+
+
+
+
+
+
+
+
+// FAQ
+function toggleAnswer(answerId) {
+    var answer = document.getElementById("answer" + answerId);
+    if(answer.style.display === "none"){
+        answer.style.display = "block";
+    }else{
+        answer.style.display = "none";
+    }
+}
+
+
+
+
+// RIGHT BTN NOT WORK IN PHONE
+var myElement = document.getElementById('phone');
+function handleRightClick(event) {
+    event.preventDefault();
+}myElement.addEventListener('contextmenu', handleRightClick);
+
+
+
+
 // LOCK TIME
 let display1 = document.getElementById('one');
 let display2 = document.getElementById('two');

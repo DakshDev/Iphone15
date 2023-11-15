@@ -6,6 +6,6 @@
 @media screen and (max-width:425px){
     #phone{
         height: 100% !important;
-        width: 90% !important;
+        width: 100% !important;
     }
 }
